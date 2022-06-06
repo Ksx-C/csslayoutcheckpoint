@@ -1,0 +1,69 @@
+.platform {
+    background-color: #e5faf8;
+    width: 100vw;
+    min-width: 100%;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 456px 435px;
+    background-position: 15% 145%;
+}
+.platform-content {
+    margin: 50px auto 88px;
+    padding: 30px 0 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1050px;
+}
+.platform-text h2 {
+    font-size: 34px;
+    line-height: 44.2px;
+}
+.platform-text p {
+    margin: 22.4px 0;
+    max-width: 415px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.platform-text {
+    width: 50%;
+    margin-left: 20px;
+}
+.platform-numbers {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    width: 50%;
+    margin-right: 5px;
+}
+.platform-numbers div {
+    background-color: white;
+    border-radius: 5px;
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    width: 40%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.platform-numbers div:first-child {
+    margin-top: 35px;
+}
+.platform-numbers div:last-child {
+    position: relative;
+    bottom: 25px;
+}
+.platform-numbers h2 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    margin: 12px 0;
+}
+.platform-numbers p {
+    font-size: 13px;
+    line-height: 16.9px;
+    margin: 0;
+}

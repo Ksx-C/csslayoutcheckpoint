@@ -1,0 +1,86 @@
+.services {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+
+.service-card {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+    height: 250px;
+    
+}
+
+.service-card-for {
+    font-size: 150%;
+    font-style: oblique;
+    
+}
+
+.service-card-patient {
+   background-color: #00CCB1;
+   display:flex;
+   flex-wrap: wrap;
+   width: 600px;
+   height: 365px;
+   
+}
+
+.service-card-doctors {
+
+background-color: #3D83DF;
+display:flex;
+flex-wrap: wrap;
+width: 600px;
+height: 365px;
+}
+
+.service-card-clinics {
+
+background-color: #1B2734;
+display:flex;
+flex-wrap: wrap;
+width: 600px;
+height: 365px;
+}
+
+.service-card-select {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 85%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.service-card-select option {
+    color: black;
+}
+
+.service-card-image-clinic {
+    height: 30px;
+    width: 30x;
+    margin-bottom: -5%;
+    margin-top: -5%;
+    margin-left: -7%;
+}
+
+.service-card-image-doctors {
+    height: 30px;
+    width: 30x;
+    margin-bottom: -5%;
+    margin-top: -5%;
+    margin-left: -7%;
+    position:relative;
+}
+
+.service-card-image-patients {
+    height: 30px;
+    width: 30x;
+    margin-bottom: -5%;
+    margin-top: -5%;
+    margin-left: -5%;
+}

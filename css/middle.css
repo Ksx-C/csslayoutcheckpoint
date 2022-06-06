@@ -1,0 +1,28 @@
+.middle-logos {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.middle-text{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.middle-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.middle-pictures-inside {
+    filter: grayscale(100%);
+    padding: 1%;
+}
+
+.middle-pictures-inside:hover {
+    filter: grayscale(0%);
+}

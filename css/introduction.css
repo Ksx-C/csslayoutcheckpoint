@@ -1,0 +1,28 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.introduction-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.introduction-title {
+     color: #1FB5A1;
+}
+
+.introduction-text {
+    display: flex;
+    color: #1FB5A1;
+}
+
+.introduction-paragraph {
+    margin: 10px;
+}

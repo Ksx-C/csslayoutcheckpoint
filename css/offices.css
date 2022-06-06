@@ -1,0 +1,19 @@
+.offices {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.offices h2 {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 300;
+}
+.office-header p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 22.4px 0;
+}
+.office-header {
+    max-width: 460px;
+    text-align: center;
+    margin: 0 auto 67px;
+}
